@@ -1,0 +1,181 @@
+Stack(
+                alignment: Alignment.bottomLeft,
+                children: [
+                  Container(
+                    width: MediaQuery.of(context).size.width,
+                    height: 250,
+                    decoration: BoxDecoration(
+                      image:DecorationImage(
+                        fit: BoxFit.fill,
+                        image: AssetImage('images/feed/7.jpeg')
+                      ),              
+                    ),
+                    child:Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children:[
+                        Row(  
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children:[                                      
+                            IconButton(
+                              icon:Icon( Icons.arrow_back_rounded),
+                              color:Colors.white,
+                              onPressed: ()=>Navigator.of(context).pop(),                    
+                            ),   
+                                
+                            PopupMenuButton(
+                              icon: Icon(Icons.menu_rounded,color:Colors.white),
+                              itemBuilder: (_){
+                                return <PopupMenuEntry>[
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('Share'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('Turn off Retweets'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('View Topics'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('Add to List'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('View Lists'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text("Lists they're on"),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('View moments'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('Mute'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('Block'),
+                                    ),
+                                  ),
+                                  PopupMenuItem(
+                                    child: FlatButton(
+                                      onPressed: null,
+                                      child:Text('Report'),
+                                    ),
+                                  ),
+                                ];
+                              }
+                            ),
+                          ]                                
+                        ),
+                        Container(
+                          height:50,
+                          color:Colors.white,
+                          child: Row(  
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children:[
+                              IconButton(
+                                icon: Icon(FontAwesomeIcons.bell, color:Colors.blue), 
+                                onPressed: null
+                              ),
+                              RaisedButton(                  
+                                shape: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(20),
+                                  borderSide: BorderSide(color: Colors.blue, )
+                                ),
+                                onPressed: (){},
+                                color: Colors.lightBlueAccent,
+                                textColor: Colors.white,
+                                child: Text('Following',style: TextStyle(color:Colors.white,),),
+                              )
+
+                            ]
+                          ),
+
+                        ),
+                      ]
+                    )
+                  ),
+                  CircleAvatar(
+                    radius: 35,                
+                    backgroundImage: AssetImage('images/feed/a.jpeg'),
+                  ),
+                
+                ],
+              ),  
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children:[
+                  VerticalDivider(color:Colors.white),
+                  Expanded(
+                    child:Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children:[
+                        Text('alias ',textAlign: TextAlign.start,
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                          textScaleFactor: .75),
+                        Text('@person',textAlign: TextAlign.start,                    
+                          textScaleFactor: .75),  
+
+                        Divider(color:Colors.white),                                       
+                        Text('I LIVE IN AN AGE OF A DYING GENERATION',textAlign: TextAlign.start,                    
+                          textScaleFactor: .75),    
+                        Divider(color:Colors.white),
+                        FlatButton.icon(
+                          onPressed: null, 
+                          icon: Icon(Icons.calendar_today_outlined),
+                          label: Text('Joined August 2020',textAlign: TextAlign.start,                    
+                            textScaleFactor: .75
+                          ),
+                        ),                                                
+                        Divider(color:Colors.white),
+                        Row(
+                          children: [
+                            FlatButton(
+                              child:Text('31 Following',textAlign: TextAlign.start,                    
+                              textScaleFactor: .75),    
+                              onPressed: (){},
+                            ),
+                            FlatButton(
+                              child:Text('27 Followers',textAlign: TextAlign.start,                    
+                              textScaleFactor: .75),    
+                              onPressed: (){},
+                            )
+                            
+                            
+                          ],
+                        ),
+                        Divider(color:Colors.white),
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 7.5,                
+                              backgroundImage: AssetImage('images/feed/a.jpeg'),
+                            ),
+                            Divider(color: Colors.white,),
+                            Text('Followed by:')
+                          ]
+                        ),
