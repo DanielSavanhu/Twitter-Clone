@@ -179,3 +179,106 @@ Stack(
                             Text('Followed by:')
                           ]
                         ),
+
+
+
+                          // for(int i = 0;i < 20;i++){
+    //   twitterlist.add(i);
+    // }
+    tweets.add(Tweet(
+      time: '10m', likes:'0', comments:'0', retweets:'0',
+      alias: 'Daniel 3:29',
+      person: 'daniel',
+      assetName: 'images/feed/g.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      time: '10m', likes:'0', comments:'0', retweets:'0',
+      alias: 'Daniel 3:29',
+      person: 'daniel',
+      assetName: '',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      time: '10m', likes:'0', comments:'0', retweets:'0',
+      alias: 'Daniel 3:29',
+      person: 'daniel',
+      assetName: 'images/feed/a.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      time: '10m', likes:'0', comments:'0', retweets:'0',
+      alias: 'Daniel 3:29',
+      person: 'daniel',
+      assetName: 'images/feed/b.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      time: '10m', likes:'0', comments:'0', retweets:'0',
+      alias: 'Daniel 3:29',
+      person: 'daniel',
+      assetName: 'images/feed/c.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      time: '10m', likes:'0', comments:'0', retweets:'0',
+      alias: 'Daniel 3:29',
+      person: 'daniel',
+      assetName: 'images/feed/d.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/e.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/h.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/6.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/1.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/2.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/3.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/4.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/7.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+    tweets.add(Tweet(
+      alias: 'Daniel 3:29',time: '10m', likes:'0', comments:'0', retweets:'0',
+      person: 'daniel',
+      assetName: 'images/feed/8.jpeg',
+      tweet: 'No other God can deliver after this sort',
+    ));
+  

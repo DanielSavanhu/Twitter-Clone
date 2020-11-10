@@ -14,35 +14,36 @@ class Profile extends StatefulWidget{
 }
 
 class _Profile extends State<Profile>{
-    
-  String assetName,person,tweet,alias,time,likes,comments,retweets;
+  
+  int likes,comments,retweets;
+  String assetName,person,tweet,alias,time;
   List<Tweet> tweets = List<Tweet>();
   @override
   void initState() {    
     super.initState();   
     tweets.add(Tweet(
-      time: '10m', likes:'0', comments:'0', retweets:'0',
+      time: '10m', likes:0, comments:0, retweets:0,
       alias: 'Daniel 3:29',
       person: 'daniel',
       assetName: 'images/feed/g.jpeg',
       tweet: 'No other God can deliver after this sort',
     ));
     tweets.add(Tweet(
-      time: '10m', likes:'0', comments:'0', retweets:'0',
+      time: '10m', likes:0, comments:0, retweets:0,
       alias: 'Daniel 3:29',
       person: 'daniel',
       assetName: '',
       tweet: 'No other God can deliver after this sort',
     ));
     tweets.add(Tweet(
-      time: '10m', likes:'0', comments:'0', retweets:'0',
+      time: '10m', likes:0, comments:0, retweets:0,
       alias: 'Daniel 3:29',
       person: 'daniel',
       assetName: 'images/feed/g.jpeg',
       tweet: 'No other God can deliver after this sort',
     ));
     tweets.add(Tweet(
-      time: '10m', likes:'0', comments:'0', retweets:'0',
+      time: '10m', likes:0, comments:0, retweets:0,
       alias: 'Daniel 3:29',
       person: 'daniel',
       assetName: 'images/feed/g.jpeg',

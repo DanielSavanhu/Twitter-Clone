@@ -4,7 +4,8 @@ import 'package:twitterclone/profile.dart';
 import 'package:twitterclone/view_tweet.dart';
 
 class Tweet extends StatefulWidget{
-  final String assetName,person,tweet,alias,time,likes,comments,retweets;
+  final String assetName,person,tweet,alias,time;
+  final int likes,comments,retweets;
   Tweet({this.assetName,this.person,this.tweet,this.alias,this.time,this.comments,this.retweets,this.likes});
   
   @override
@@ -18,7 +19,8 @@ class _Tweet extends State<Tweet>{
   _Tweet({this.assetName,this.person,this.tweet,this.alias,this.time,
   this.comments,this.retweets,this.likes});  
   
-  String assetName,person,tweet,alias,time,likes,comments,retweets;
+  int likes,comments,retweets;
+  String assetName,person,tweet,alias,time;
   
   @override
   Widget build(BuildContext context) {
@@ -69,7 +71,7 @@ class _Tweet extends State<Tweet>{
                   ),                        
                   Text('$tweet',textScaleFactor: .8,),                
                   Divider(color: Colors.white),
-                  assetName!=''?
+                  assetName!=null?
                     Container(
                       decoration: BoxDecoration(                      
                         borderRadius: BorderRadius.circular(25),
@@ -92,7 +94,7 @@ class _Tweet extends State<Tweet>{
                           IconButton(
                             icon: Icon(Icons.mode_comment_outlined)
                           ),
-                          Text(comments),
+                          Text(comments.toString()),
                         ]
                       ),
                       Row(
@@ -101,7 +103,7 @@ class _Tweet extends State<Tweet>{
                           IconButton(
                             icon: Icon(Icons.repeat_outlined),
                           ),
-                          Text(retweets),
+                          Text(retweets.toString()),
                         ]
                       ),
                       Row(
@@ -110,7 +112,7 @@ class _Tweet extends State<Tweet>{
                           IconButton(
                             icon: Icon(Icons.favorite_outline_outlined),
                           ),
-                          Text(likes),
+                          Text(likes.toString()),
                         ]
                       ),
                       IconButton(

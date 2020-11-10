@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "932032459518",
+    "firebase_url": "https://twitter-c8347.firebaseio.com",
+    "project_id": "twitter-c8347",
+    "storage_bucket": "twitter-c8347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932032459518:android:a2d6ea701144e07e33ebaf",
+        "android_client_info": {
+          "package_name": "com.example.twitterclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932032459518-0r567mihp1r6rn4bppigcjmsdpe8msai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm9o9nuBYO3lUK2HsIaB59ElPxx2-da5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932032459518-0r567mihp1r6rn4bppigcjmsdpe8msai.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "932032459518-6l5jku9evmqbgk7i9psjeu6tka4fr299.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.twitter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
